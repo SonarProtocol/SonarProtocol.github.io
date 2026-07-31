@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SONAR PROTOCOL</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon">
+</head>
+<body>
+
+    <nav class="navbar-top">
+        <div class="nav-logo">
+            <img src="assets/logo.png" alt="Sonar Protocol Logo" class="logo-img">
+            <span class="logo-text">SONAR PROTOCOL</span>
+        </div>
+    </nav>
+
+    <div class="main-container">
+
+        <main class="cuadro-central">
+            <h2>SONAR <span class="accent-text">PROTOCOL</span></h2>
+            <p>Nace para erradicar la incomunicación crítica tras catástrofes sísmicas, marítimas o incendios. Mediante un sistema alimentado por energía solar, opera de forma 100% independiente de la red eléctrica convencional para garantizar asistencia inmediata cuando el suministro colapsa.</p>
+            <div class="img-wrapper">
+                <img src="assets/GENERAL.png" alt="IMAGEN GENERAL">
+            </div>
+        </main>
+
+        <section class="componentes-container">
+            <h3 class="titulo-seccion">ETAPAS Y <span class="accent-text">COMPONENTES</span></h3>
+
+            <div class="lista-componentes">
+
+                <article class="tarjeta-componente" id="panel-solar">
+                    <div class="img-wrapper">
+                        <img src="assets/panelsolar.png" alt="Panel Solar">
+                    </div>
+                    <div class="info-componente">
+                        <h4>1. Panel Solar</h4>
+                        <p>Capta la radiación solar en el lugar de la emergencia y la transforma en energía eléctrica limpia de manera continua, actuando como la fuente de alimentación primaria del sistema.</p>
+                    </div>
+                </article>
+
+                <article class="tarjeta-componente" id="inversor">
+                    <div class="img-wrapper">
+                        <img src="assets/inversor.png" alt="Inversor de Corriente">
+                    </div>
+                    <div class="info-componente">
+                        <h4>2. Inversor / Controlador</h4>
+                        <p>Recibe la corriente generada por el panel solar, la regula de forma segura para evitar sobrecargas y la gestiona para alimentar los equipos y cargar el banco de baterías.</p>
+                    </div>
+                </article>
+
+                <article class="tarjeta-componente" id="bateria">
+                    <div class="img-wrapper">
+                        <img src="assets/BATERIA.png" alt="Batería de Respaldo">
+                    </div>
+                    <div class="info-componente">
+                        <h4>3. Batería de Respaldo</h4>
+                        <p>Almacena el exceso de energía eléctrica para mantener el sistema 100% operativo durante la noche, en días nublados o ante la falla total de la red pública.</p>
+                    </div>
+                </article>
+
+                <article class="tarjeta-componente" id="esp32">
+                    <div class="img-wrapper doble-img">
+                        <img src="assets/ESP32.png" alt="Módulo ESP32">
+                        <img src="assets/SCT-013.png" alt="Sensor de Corriente SCT-013 50A/1V">
+                    </div>
+                    <div class="info-componente">
+                        <h4>4. Etapa de Monitoreo (IoT)</h4>
+                        <p>Integrada por el microcontrolador ESP32 y el sensor de corriente. Mide en tiempo real el consumo del sistema, procesa los datos y los transmite a una interfaz web local accesible mediante la conexión Wi-Fi asignada al ESP32.</p>
+                    </div>
+                </article>
+
+                <article class="tarjeta-componente" id="parlante">
+                    <div class="img-wrapper">
+                        <img src="assets/parlante.png" alt="Parlante / Altavoz">
+                    </div>
+                    <div class="info-componente">
+                        <h4>5. Altavoz de Difusión</h4>
+                        <p>Convierte las señales procesadas en audio masivo de alta potencia, difundiendo alertas, instrucciones de rescate e información vital a la población afectada.</p>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+    </div>
+
+</body>
+</html>
